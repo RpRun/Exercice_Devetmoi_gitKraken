@@ -1,2 +1,2 @@
 # Exercice_Devetmoi_gitKraken
-1st use of GitKraken
+commit with vs's terminal
