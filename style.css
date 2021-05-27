@@ -1,3 +1,11 @@
+/*CORPS */
+
+body
+{
+	
+	font-family:'Roboto', sans-serif;
+}
+
 header
 {
 	display: flex;
@@ -5,9 +13,9 @@ header
 	justify-content:space-between;
 	/*maquette*/
 	border: solid black 3px;
-	/*maquette*/
-	
+	/*maquette*/	
 }
+
 ul
 {
 	display: flex;
@@ -18,3 +26,9 @@ nav
 	border: solid blueviolet 3px;
 	padding: 6px;
 }
+
+#banner_image
+{
+    
+    background: url('Images/backgroung_image.jpg') no-repeat;
+    }
