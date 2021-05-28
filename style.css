@@ -86,7 +86,40 @@ nav li
     align-items: center;	
 }
 
+#bannercontentlogo 
+{
+    width: 200px;
+}
+
+#bannercontent h1
+ {
+	color: white;
+	font-weight: 400;
+}
+
 #presentation
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	margin: 20px;
+	text-align: center;
+	max-width: 800px;
+	
+}
+
+#competences
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	
+}
+.skills
 {
 	display: flex;
 	flex-direction: column;
@@ -94,10 +127,16 @@ nav li
 	align-items: center;
 }
 
-#competences
+article
 {
+	text-align: center;
+	padding: 0 20px 0 20px;
+}
+
+#presentation article {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
+	padding: 40px;
+	justify-content: space-around;
 }
