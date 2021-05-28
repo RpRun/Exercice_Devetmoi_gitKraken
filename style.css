@@ -24,7 +24,7 @@ header
 }
 main
 {
-	background-color: rgb(42, 29, 29);
+	background-color: burlywood;
 	margin-top: 0px;
 }
 
@@ -83,7 +83,21 @@ nav li
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-    align-items: center;
-	
-	
+    align-items: center;	
+}
+
+#presentation
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#competences
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }

@@ -1,2 +1,1 @@
-# Exercice_Devetmoi_gitKraken
-commit with vs's terminal
+Exercice preliminaire au P2, integrer une maquette
