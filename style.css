@@ -7,42 +7,7 @@ body
 	display: flex;
 	justify-content: center;
 }
-#container
-{
-	display: flex;
-	max-width: 1200px;
-	flex-direction: column;
 
-	
-    /* On ajoute une marge sur les cotés de l'écran */
-    padding-right: 15px;
-    padding-left: 15px;
-
-    /* Et on centre */
-    margin-right: auto;
-    margin-left: auto;
-	flex-direction: column;
-}
-
-/* Sur les grands écrans, on limite la largeur du contenu */
-@media (min-width: 1200px){
-    .container {
-        width: 1170px;
-    }
-}
-}
-
-header
-{
-	display: flex;
-	flex-direction: row;
-
-		
-	justify-content:space-between;
-	/*maquette*/
-	border: solid black 3px;
-	/*maquette*/	
-}
 main
 {
 	
@@ -53,8 +18,9 @@ nav
 {
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
 
-	/*maquette*/
+	/*maquette*
 	border: solid purple 3px;
 	/*maquette*/	
 	
@@ -73,25 +39,18 @@ nav li
 {
 	height: 450px;
 	position:relative ;
-	/*maquette*/
+	/*maquette*
 	border: solid red 3px;
 	/*maquette*/
 
 }
-#bannerimage
+
+#bannerimage img
 {
-    
-	/*maquette*/
-	border: solid blue 3px;
-	/*maquette*/
+	object-fit:cover;
 	position: absolute;
 	width: 100%;
     height: 100%;
-	  	
-}
-#bannerimage img
-{
-	object-fit: fill;
 		
 }
 
@@ -99,8 +58,7 @@ nav li
 {
 	position: absolute;
 	width: 100%;
-	height: 100%;
-	
+	height: 100%;	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -116,6 +74,7 @@ nav li
  {
 	color: white;
 	font-weight: 400;
+	margin-top: 3%;
 }
 
 #presentation
@@ -160,4 +119,28 @@ article
 	align-items: center;
 	padding: 40px;
 	justify-content: space-around;
+}
+#container
+{
+	display: flex;
+	max-width: 1600px;
+	flex-direction: column;
+
+	
+    /* On ajoute une marge sur les cotés de l'écran */
+    padding-right: 15px;
+    padding-left: 15px;
+
+    /* Et on centre */
+    margin-right: auto;
+    margin-left: auto;
+	
+}
+
+/* Sur les grands écrans, on limite la largeur du contenu */
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
 }
