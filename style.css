@@ -13,6 +13,15 @@ main
 	
 	margin-top: 0px;
 }
+/*demander une clarification bastien sur la necessite de creer 
+div ici pour contener flex, */
+
+#entete
+
+{
+	display: flex;
+	justify-content: space-between;
+}
 
 nav
 {
@@ -122,25 +131,19 @@ article
 }
 #container
 {
-	display: flex;
-	max-width: 1600px;
-	flex-direction: column;
-
 	
-    /* On ajoute une marge sur les cotés de l'écran */
+	max-width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
-
-    /* Et on centre */
     margin-right: auto;
     margin-left: auto;
 	
 }
 
 /* Sur les grands écrans, on limite la largeur du contenu */
-@media (min-width: 1200px){
+@media (min-width: 1200px)
+{
     .container {
         width: 1170px;
     }
-}
 }
