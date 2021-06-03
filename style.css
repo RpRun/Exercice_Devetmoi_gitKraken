@@ -14,20 +14,15 @@ main
 	margin-top: 0px;
 }
 /*demander une clarification bastien sur la necessite de creer 
-div ici pour contener flex, */
+div ici pour contener flex,----> ok , mettre img logo dans nav */
 
-#entete
 
-{
-	display: flex;
-	justify-content: space-between;
-}
 
 nav
 {
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: space-between;
 
 	/*maquette*
 	border: solid purple 3px;
