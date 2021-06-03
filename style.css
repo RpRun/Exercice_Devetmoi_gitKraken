@@ -6,6 +6,7 @@ body
 	font-family:'Roboto', sans-serif;
 	display: flex;
 	justify-content: center;
+	margin: 0%;
 }
 
 main
@@ -15,6 +16,8 @@ main
 }
 /*demander une clarification bastien sur la necessite de creer 
 div ici pour contener flex,----> ok , mettre img logo dans nav */
+
+
 
 
 
@@ -69,12 +72,16 @@ nav li
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-    align-items: center;	
+    align-items: center;
+	/*margin top inactif */
+	margin-top: 0px;	
+	/*margin top inactif */
 }
 
 #bannercontentlogo 
 {
     width: 200px;
+	height: 60px;
 }
 
  h1
@@ -91,7 +98,7 @@ nav li
 	justify-content: center;
 	align-items: center;
 	padding: 30px;
-	margin: 20px;
+	margin: 10%;
 	text-align: center;
 	max-width: 800px;
 	
@@ -100,10 +107,7 @@ nav li
 #competences
 {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	text-align: center;
+	
 	
 }
 .skills
@@ -114,6 +118,14 @@ nav li
 	align-items: center;
 	padding: 5%;
 	margin-top: 5%;
+	height: 100%;
+}
+/* margin left sur skills, pas aligné avec presentation */
+.skills p
+{
+	margin-top: 30px;
+	/* illustrations pas la meme taille, problematique */
+	height: 230px;
 }
 
 article
@@ -126,9 +138,15 @@ article
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 40px;
-	justify-content: space-around;
+	padding: 20px;
+	
 }
+
+h2
+{
+	padding: 6%;
+}
+
 #container
 {
 	
