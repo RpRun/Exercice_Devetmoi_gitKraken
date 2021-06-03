@@ -26,18 +26,21 @@ nav
 
 	/*maquette*
 	border: solid purple 3px;
-	/*maquette*/	
-	
+	/*maquette*/		
 }
 nav ul
 {
 	display: flex;
 }
+/* list style : none; sur ul ou li? */
 nav li
 {
 	list-style: none;
 	padding: 10px;
 }
+
+/* correction pas de padding mais margin sur nav li */
+
 
 #banner
 {
@@ -74,7 +77,7 @@ nav li
     width: 200px;
 }
 
-#bannercontent h1
+ h1
  {
 	color: white;
 	font-weight: 400;
@@ -109,6 +112,8 @@ nav li
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 5%;
+	margin-top: 5%;
 }
 
 article
